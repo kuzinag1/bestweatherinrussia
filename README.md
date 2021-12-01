@@ -6,8 +6,8 @@
  ## Description
  
  Данный бот реализован на платформе <img src="https://cdn.freebiesupply.com/logos/large/2x/java-2-logo-png-transparent.png"
- alt="Weather" height="30" />Java + <img src="https://download.logo.wine/logo/Spring_Framework/Spring_Framework-Logo.wine.png"
- alt="Weather" height="30" />Spring Framework. С помощью данного бота вы можете узнать погоду в своем городе. 
+ alt="Weather" height="30" /> + <img src="https://download.logo.wine/logo/Spring_Framework/Spring_Framework-Logo.wine.png"
+ alt="Weather" height="30" />. С помощью данного бота вы можете узнать погоду в своем городе. 
  
  ## Development
  
@@ -20,14 +20,21 @@
 ## API
 
 - Найти всех пользователей, кто пользуется нашим ботом и отправлял геолокацию
-  - http://localhost:8080/find-all-users
+  - GET http://localhost:8080/find-all-users
 - Найти историю всех пользователей, кто пользуется нашим ботом
-  - http://localhost:8080/find-all-users
+  - GET http://localhost:8080/find-all-users
 - Найти пользователя по id
-  - http://localhost:8080/find-user-by-id{id}
+  - GET http://localhost:8080/find-user-by-id{id}
 - Найти пользователя и историю его всех отправленных геопозиций.
-  - http://localhost:8080/find-user-by-id{id}
-
+  - GET http://localhost:8080/find-user-by-id{id}
+ 
+ ## How to start
+1. Не забудьте установить webhook, где url - http://localhost:8080/, a mytoken - токен вашего бота. Пример https://api.telegram.org/bot{my_bot_token}/setWebhook?url={url_to_send_updates_to}
+2. Написать команду на консоли, находясь внутри вашего проекта:
+ ```console
+ ./gradle bootrun
+ ```
+ 
 
 
 
