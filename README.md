@@ -1,6 +1,6 @@
 
 # Weather bot
-<p align="center"><img src="https://cdn-icons.flaticon.com/png/128/3750/premium/3750446.png?token=exp=1638378263~hmac=cd9fc94efd36b554c9fb74a2f9d0ca3a"
+<p align="center"><img src="https://cdn-icons.flaticon.com/png/512/3750/premium/3750446.png?token=exp=1638692140~hmac=9e3375d36babb077e04387116e7ab179"
  alt="Weather" height="100" />
  
  ## Description
